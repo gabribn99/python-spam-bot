@@ -3,7 +3,8 @@ import webbrowser
 from time import sleep
 
 phoneNumber = 'PHONE'
-textToSend = 'FILENAME.txt'
+
+textToSend = 'text.txt'
 
 webbrowser.open('https://api.whatsapp.com/send/?phone=34' + phoneNumber)
 
