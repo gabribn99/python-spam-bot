@@ -2,12 +2,12 @@ import pyautogui
 import webbrowser
 from time import sleep
 
-phoneNumber = 'PHONE'
+phoneNumber = input('Indique el número de teléfono: ')
 
 textToSend = 'text.txt'
 
-webbrowser.open('https://api.whatsapp.com/send/?phone=34' + phoneNumber)
-
+webbrowser.open('https://api.whatsapp.com/send/?phone=34' +
+                phoneNumber.replace(' ', ''))
 sleep(2)
 
 with open(textToSend, 'r') as file:
