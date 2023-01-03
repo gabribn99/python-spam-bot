@@ -7,3 +7,4 @@ Este programa permite enviar mensajes muy largos en trozos, por si el mensaje qu
 Utiliza 3 libreríás:
 - pyautogui: permite utilizar las opciones del ordenador, como escribir, pulsar una tecla...
 - webbrowser: para acceder a páginas web
+- sleep de time: para dar tiempo entre acciones
